@@ -114,6 +114,14 @@ a { color: inherit; text-decoration: none; }
   height: 132px;
   font-size: 52px;
   background: var(--thumb, #eef2ef);
+  overflow: hidden;
+}
+
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .card-body {
